@@ -165,20 +165,3 @@ elif sidebar_mode == 'Batch Prediction':
             results = batch_predict(input_batch, model)
             st.dataframe(results)
             st.download_button('Download Results as CSV', results.to_csv(index=False), file_name='churn_predictions.csv')
-
-st.header("Churn Data Visualizations")
-if st.checkbox('Show churn by tenure'):
-    df = get_data()
-    fig, ax = plt.subplots()
-    sns.histplot(df[df['Churn'] == 'Yes']['tenure'], color='red', label='Churn')
-    sns.histplot(df[df['Churn'] == 'No']['tenure'], color='green', label='No Churn')
-    plt.legend()
-    st.pyplot(fig)
-
-if st.checkbox('Show churn by monthly charges'):
-    df = get_data()
-    fig, ax = plt.subplots()
-    sns.histplot(df[df['Churn'] == 'Yes']['MonthlyCharges'], color='red', label='Churn')
-    sns.histplot(df[df['Churn'] == 'No']['MonthlyCharges'], color='green', label='No Churn')
-    plt.legend()
-    st.pyplot(fig)
