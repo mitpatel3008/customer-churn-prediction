@@ -1,0 +1,11 @@
+gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn_Prediction,Probability
+Male,1,No,No,2,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,85.0,170.0,Churn,0.89666635
+Female,0,Yes,Yes,60,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Bank transfer (automatic),45.0,2700.0,No Churn,0.03544022
+Male,0,No,No,1,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,90.0,90.0,Churn,0.86785245
+Female,0,Yes,No,48,Yes,No,DSL,Yes,No,Yes,No,No,No,One year,No,Mailed check,55.0,2640.0,No Churn,0.13672782
+Male,1,No,No,3,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,95.0,285.0,Churn,0.94171154
+Female,0,Yes,Yes,72,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Two year,No,Credit card (automatic),80.0,5760.0,No Churn,0.032182753
+Male,0,No,No,5,No,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,70.0,350.0,Churn,0.86882615
+Female,0,No,No,36,Yes,No,No,No,No,No,No,No,No,One year,No,Mailed check,20.0,720.0,No Churn,0.123675495
+Male,1,Yes,No,2,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,88.0,176.0,Churn,0.9023992
+Female,0,Yes,Yes,65,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Bank transfer (automatic),60.0,3900.0,No Churn,0.030963771
