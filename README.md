@@ -5,7 +5,7 @@ A deep learning app that predicts telecom customer churn with a strong focus on 
 ⸻
 
 ## 🌐 Live Demo
-- App deployed on Streamlit Cloud
+- https://customerchurn-app9.streamlit.app/
 
 ⸻
 
